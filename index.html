@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="한씨의 디자인·영상·웹 포트폴리오">
+  <title>HAN. — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="홈으로">
+     <img src="images/LOGO_HD.png" alt="HAN.">
+    </a>
+    <button class="menu-toggle" aria-label="메뉴 열기" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="주 메뉴">
+      <a href="#top">Home</a>
+      <a href="#project-gallery">Works</a>
+      <a href="#skills">Skills</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">VIDEO / DESIGN/ WEB</p>
+        <h1 class="hero-logo" id="hero-title">
+          <img src="images/LOGO_HERO.png" alt="I'M HAN.">
+        </h1>
+      </div>
+    </section>
+    <section id="project-gallery" class="feature-gallery section" aria-labelledby="feature-title">
+      <div class="section-heading">
+        <p class="eyebrow">01 / PROJECTS</p>
+        <h2 id="feature-title">Selected <span>projects.</span></h2>
+      </div>
+      <div class="expanding-gallery">
+        <a class="gallery-panel is-active" href="project.html?project=0" data-project="0">
+          <div class="panel-art art-four">
+            <img src="images/project01/thumbnail_card.png" alt="유튜브 채널 기획 프로젝트">
+            <span class="art-label">CHANNEL</span>
+          </div>
+          <div class="panel-copy"><p>01 / PROJECTS</p><h3>유튜브 채널 기획</h3><span class="view-more">VIEW MORE ↗</span></div>
+        </a>
+        <a class="gallery-panel" href="#project-02" data-project="1">
+          <div class="panel-art art-three">
+            <img src="images/project02/thumbnail_card.png" alt="영상 콘텐츠 제작 프로젝트">
+            <span class="art-label">EDIT</span>
+          </div>
+          <div class="panel-copy"><p>02 / PROJECTS</p><h3>영상 콘텐츠 편집</h3><span class="view-more">VIEW MORE ↗</span></div>
+        </a>
+        <a class="gallery-panel" href="#project-03" data-project="2">
+          <div class="panel-art art-one">
+            <img src="images/project03/project03_thumbnail.jpg" alt="환경부 분리배출 광고 프로젝트">
+            <span class="art-label">AI AD</span>
+          </div>
+          <div class="panel-copy"><p>03 / PROJECTS</p><h3>AI 광고 모작</h3><span class="view-more">VIEW MORE ↗</span></div>
+        </a>
+        <a class="gallery-panel" href="#project-04" data-project="3">
+          <div class="panel-art art-two">
+            <img src="images/project04/project02_thumbnail.png" alt="쿠캣 커머스 UX/UI 프로젝트">
+            <span class="art-label">UX/UI</span>
+          </div>
+          <div class="panel-copy"><p>04 / PROJECTS</p><h3>푸드 커머스 UX</h3><span class="view-more">VIEW MORE ↗</span></div>
+        </a>
+      </div>
+    </section>
+
+            <!-- SKILLS 스킬 -->
+    <section class="skills section" id="skills" aria-labelledby="skills-title">
+      <div class="section-heading"><p class="eyebrow">02 / SKILLS</p><h2 id="skills-title">What I <span>do.</span></h2></div>
+      <div class="skill-grid">
+        <article class="skill-card"><span>01</span><h3>VIDEO</h3><p>Premiere Pro · After Effects</p></article>
+        <article class="skill-card"><span>02</span><h3>DESIGN</h3><p>Photoshop · Illustrator · Figma</p></article>
+        <article class="skill-card"><span>03</span><h3>WEB</h3><p>HTML · CSS · JavaScript</p></article>
+      </div>
+    </section>
+
+        <!-- Profile_프로필 -->
+    <section class="profile section" id="profile" aria-labelledby="profile-title">
+      <div class="section-heading">
+        <p class="eyebrow">03 / PROFILE</p>
+        <h2 id="profile-title">About <span>me.</span></h2>
+      </div>
+      <div class="profile-grid">
+        <div class="profile-photo">
+          <img src="images/profile.png" alt="프로필 사진">
+        </div>
+        <div class="profile-intro">
+          <p class="profile-label">ABOUT ME</p>
+          <h3>안녕하세요.<br>디자인과 영상을 만드는 한미정입니다.</h3>
+          <p class="profile-description">
+            디자인과 영상 제작을 통해 아이디어를 시각적으로 표현합니다.<br>
+            그래픽 디자인부터 영상 편집과 모션그래픽까지, 다양한 분야를 탐구하며 저만의 결과물을 만들어갑니다.
+          </p>
+          <div class="profile-contact">
+            <p><strong>Name</strong><span>한미정 HAN MI JEONG</span></p>
+            <p><strong>Birth</strong><span>1996.07.12</span></p>
+            <p><strong>Email</strong><span>gksalwjd3@naver.com</span></p>
+          </div>
+        </div>
+        <div class="profile-details">
+          <!-- Education -->
+          <div class="profile-detail-group">
+            <h3>EDUCATION</h3>
+            <p>학력 및 교육 이력 입력</p>
+          </div>
+          <!-- License -->
+          <div class="profile-detail-group">
+            <h3>LICENSE</h3>
+            <p>자격증 및 수료 이력 입력</p>
+          </div>
+                    <!-- Skills -->
+          <div class="profile-skills-row">
+            <div class="profile-detail-group">
+              <h3>VIDEO</h3>
+              <p>Premiere Pro</p>
+              <p>After Effects</p>
+              <p>Motion Graphics</p>
+            </div>
+            <div class="profile-detail-group">
+              <h3>DESIGN</h3>
+              <p>Photoshop</p>
+              <p>Illustrator</p>
+              <p>Figma</p>
+            </div>
+            <div class="profile-detail-group">
+              <h3>WEB</h3>
+              <p>HTML</p>
+              <p>CSS</p>
+              <p>JavaScript</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="wordmark" href="#top" aria-label="홈으로">
+     <img src="images/LOGO_HD.png" alt="HAN.">
+    </a>
+    <p>© 2026 HAN. ALL RIGHTS RESERVED.</p>
+    <a href="#top" class="back-top">맨위로↑</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
