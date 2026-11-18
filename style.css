@@ -165,7 +165,7 @@ button {
 .expanding-gallery {
   display: flex;
   gap: 4px;
-  height: clamp(360px, 40vw, 680px);
+  height: 400px;
   overflow: hidden;
 }
 .gallery-panel {
@@ -186,7 +186,7 @@ button {
   inset: 0;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   padding: 24px;
   transition: transform .6s;
 }
@@ -201,33 +201,22 @@ button {
   transition: opacity 0.5s ease;
   pointer-events: none;
 }
-/* 카드 영역에 호버하면 나머지 카드에 그라데이션 적용 */
-.gallery-panel:hover ~ .gallery-panel .panel-art::after {
+/* 호버/포커스된 패널 외 모든 패널에 그라데이션 적용 */
+.expanding-gallery:has(.gallery-panel:hover) .gallery-panel:not(:hover) .panel-art::after,
+.expanding-gallery:has(.gallery-panel:focus-visible) .gallery-panel:not(:focus-visible) .panel-art::after {
   opacity: 1;
-}
-/* 호버한 카드 자체는 그라데이션 제거 */
-.gallery-panel:hover .panel-art::after {
-  opacity: 0;
-}
-/* 키보드로 포커스한 경우에도 동일하게 적용 */
-.gallery-panel:focus-visible ~ .gallery-panel .panel-art::after {
-  opacity: 1;
-}
-
-.gallery-panel:focus-visible .panel-art::after {
-  opacity: 0;
 }
 
 /* 프로젝트 카드 이미지 공통 스타일 */
 .panel-art img {
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
   position: relative;
-  top: -32px;
+  top: 0;
 }
 .gallery-panel:hover .panel-art {
   transform: scale(1.035);
@@ -264,6 +253,9 @@ button {
 .panel-copy h3 {
   font-size: clamp(18px, 2vw, 32px);
   margin: 8px 0;
+  text-shadow:
+  1px 1px 2px rgba(0, 0, 0, 0.8),
+  0 0 4px rgba(0, 0, 0, 0.5);
 }
 .view-more {
   font-size: 9px;
@@ -1142,3 +1134,24 @@ line-height: 1;
   }
 }
 
+
+/* Horizontal gallery with three visible images and navigation */
+.gallery-carousel { width: 100%; }
+.gallery-track { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.gallery-controls { display: flex; justify-content: flex-end; gap: 8px; margin-top: 16px; }
+.gallery-controls button { width: 42px; height: 42px; border: 1px solid var(--line); background: transparent; color: inherit; cursor: pointer; }
+.project-process-gallery { display: none; }
+
+.gallery-carousel .detail-image img { display:block; width:100%; height:100%; object-fit:contain; }
+@media (max-width: 700px) {
+  .gallery-track { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; }
+  .gallery-controls button { width: 36px; height: 36px; }
+}
+
+/* Profile tool skill ratings */
+.profile-tool-skill { margin: 0 0 12px; }
+.profile-tool-skill .tool-name { margin: 0 0 5px; font-size: 11px; line-height: 1.45; }
+.skill-dots { display: flex; align-items: center; gap: 4px; }
+.skill-dot { width: 6px; height: 6px; flex: 0 0 6px; border-radius: 50%; background: #d9d9d9; }
+.skill-dot.is-filled { background: #f04435; }
+.profile-skills-row .profile-detail-group p.tool-name { font-size: 11px; margin: 0 0 5px; }

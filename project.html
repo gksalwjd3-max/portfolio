@@ -11,7 +11,7 @@
 <body class="project-page">
   <header class="site-header">
     <a class="wordmark" href="index.html" aria-label="메인 페이지로 이동">
-      <img src="images/LOGO_HD.png" alt="HAN.">
+      <img src="/LOGO_HD.png" alt="HAN.">
     </a>
     <a class="back-link" href="index.html#top" aria-label="홈으로 이동">
     <i class="fa-solid fa-house" aria-hidden="true"></i>
@@ -21,11 +21,8 @@
   <main id="project-content">
     <section class="project-hero section">
       <p class="eyebrow" id="project-category">CHANNEL BRANDING / PROJECT 01</p>
-      <h1 id="project-title">프로젝트 제목<span>.</span></h1>project-cover
+      <h1 id="project-title">프로젝트 제목</h1>project-cover
       <p id="project-description">프로젝트의 콘셉트와 제작 과정을 소개합니다.</p>
-      <div class="project-cover">
-        <img id="project-cover-image" src="images/project03/project03_thumbnail.jpg" alt="환경부 분리배출 광고 모작 대표 이미지">
-      </div>
       <!-- <div id="project-video-player" class="project-video">
         <video controls playsinline preload="metadata" poster="images/project03/project03_thumbnail.jpg">
         <source src="images/project01/project03_final.mp4" type="video/mp4">브라우저에서 이 영상을 재생할 수 없습니다.
@@ -73,46 +70,60 @@
       </div>
     </section>
     <section class="project-process section">
-      <div class="section-heading"><p class="eyebrow">CREATIVE PROCESS</p><h2>컨셉부터 최종까지<span>.</span></h2></div>
+      <div class="section-heading"><p class="eyebrow">CREATIVE PROCESS</p><h2>기획부터 최종까지</h2></div>
       <div class="process-grid">
         <article>
           <span>STEP 01</span>
           <h3 id="process-title-0">기획 및 콘셉트 설정</h3>
-          <div class="process-image">
-            <img src="images/project01/process/process_01.jpg" alt="환경부 분리배출 광고 기획 및 콘셉트" loading="lazy">
-          </div>
           <p id="process-description-0">프로젝트의 목적과 타깃을 분석하고 제작 방향을 설정합니다.</p>
         </article>
         <article>
           <span>STEP 02</span>
           <h3 id="process-title-1">키 이미지 제작</h3>
-          <div class="process-image">
-           <img src="images/project01/process/process_02.png" alt="환경부 분리배출 광고 스토리보드 및 장면 구성" loading="lazy">
-          </div>
           <p id="process-description-1">장면별 키 이미지와 시각적 분위기를 구체화합니다.</p>
         </article>
         <article>
           <span>STEP 03</span>
           <h3 id="process-title-2">영상 생성 및 편집</h3>
-          <div class="process-image">
-            <img src="images/project01/process/process_03.png" alt="환경부 분리배출 광고 AI 영상 생성 및 편집" loading="lazy">
-          </div>
           <p id="process-description-2">영상 생성과 편집으로 장면을 연결하고 흐름을 다듬습니다.</p>
         </article>
         <article>
           <span>STEP 04</span>
           <h3 id="process-title-3">최종 결과물 완성</h3>
-          <div class="process-image">
-            <img src="images/project01/process/process_04.png" alt="환경부 분리배출 광고 최종 결과물 완성" loading="lazy">
-          </div>
           <p id="process-description-3">화면과 사운드를 점검해 최종 결과물을 완성합니다.</p>
         </article>
       </div>
     </section>
 
+    <section class="project-gallery-detail section" id="project-result-gallery"><div class="section-heading"><h2 id="result-gallery-heading">프로젝트 결과물</h2></div>
+      <div class="gallery-carousel" data-gallery="result"><div class="detail-gallery gallery-track">
+        <button class="detail-image placeholder-image" data-image="0"><span>GALLERY IMAGE 01</span></button>
+        <button class="detail-image placeholder-image" data-image="1"><span>GALLERY IMAGE 02</span></button>
+        <button class="detail-image placeholder-image" data-image="2"><span>GALLERY IMAGE 03</span></button>
+        <button class="detail-image placeholder-image" data-image="3"><span>GALLERY IMAGE 04</span></button>
+        <button class="detail-image placeholder-image" data-image="4"><span>GALLERY IMAGE 05</span></button>
+        <button class="detail-image placeholder-image" data-image="5"><span>GALLERY IMAGE 06</span></button>
+      </div>
+      <div class="gallery-controls"><button class="gallery-prev" aria-label="이전 이미지">←</button><button class="gallery-next" aria-label="다음 이미지">→</button></div>
+      </div>
+    </section>
+
+    <section class="project-gallery-detail section project-process-gallery" id="project-process-gallery">
+      <div class="section-heading"><h2>프로젝트 과정</h2></div>
+      <div class="gallery-carousel" data-gallery="process">
+        <div class="detail-gallery gallery-track">
+          <button class="detail-image placeholder-image" data-image="0"><span>PROCESS IMAGE 01</span></button>
+          <button class="detail-image placeholder-image" data-image="1"><span>PROCESS IMAGE 02</span></button>
+          <button class="detail-image placeholder-image" data-image="2"><span>PROCESS IMAGE 03</span></button>
+          <button class="detail-image placeholder-image" data-image="3"><span>PROCESS IMAGE 04</span></button>
+        </div>
+        <div class="gallery-controls"><button class="gallery-prev" aria-label="이전 이미지">←</button><button class="gallery-next" aria-label="다음 이미지">→</button></div>
+      </div>
+    </section>
+
 <section class="project-final section" id="project-final-video">
   <p class="eyebrow">FINAL VIDEO</p>
-  <h2>최종 결과물<span>.</span></h2>
+  <h2>최종 결과물</h2>
 <!-- PROJECT 02: 영상 콘텐츠 제작 -->
   <div class="final-video-project" id="final-video-project02">
     <div class="project-video-group project-video-group--dual">
@@ -143,16 +154,7 @@
   </div>
 </section>
 
-    <section class="project-gallery-detail section"><div class="section-heading"><p class="eyebrow">GALLERY</p><h2>프로젝트 결과물<span>.</span></h2></div>
-      <div class="detail-gallery">
-        <button class="detail-image placeholder-image" data-image="0"><span>GALLERY IMAGE 01</span></button>
-        <button class="detail-image placeholder-image" data-image="1"><span>GALLERY IMAGE 02</span></button>
-        <button class="detail-image placeholder-image" data-image="2"><span>GALLERY IMAGE 03</span></button>
-        <button class="detail-image placeholder-image" data-image="3"><span>GALLERY IMAGE 04</span></button>
-        <button class="detail-image placeholder-image" data-image="4"><span>GALLERY IMAGE 05</span></button>
-        <button class="detail-image placeholder-image" data-image="5"><span>GALLERY IMAGE 06</span></button>
-      </div>
-    </section>
+
     <nav class="project-navigation section" aria-label="프로젝트 이동">
       <a href="index.html#project-gallery">← 홈으로</a>
       <a href="index.html">맨위로 ↑</a>

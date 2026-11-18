@@ -38,7 +38,7 @@ const projectData = [
     thumbnail: "images/project01/thumbnail.png",
     cover: "images/project01/thumbnail.png",
     alt: "유튜브 채널 기획 프로젝트 대표 이미지",
-    overviewHeading: "채널의 방향을 설계하고 콘텐츠 전략을 구체화하다",
+    overviewHeading: "채널의 방향을 설계하고 최종 브랜딩을 완성하다",
     role: "Channel Planning · Content Strategy · Branding",
     tools: "Figma · Photoshop · Illustrator",
     output: "Channel Branding / Content Planning · Channe Design",
@@ -51,60 +51,60 @@ const projectData = [
     processSteps: [
       {
         title: "채널 콘셉트 및 방향 설정",
-        description: "채널의 목적과 타깃 시청자를 정의하고, 핵심 콘셉트와 차별화 방향을 설정합니다."
+        description: "채널의 목적과 타깃 시청자를 정의하고, 핵심 콘셉트와 차별화 방향을 설정."
       },
       {
-        title: "콘텐츠 및 레퍼런스 분석",
-        description: "유사 채널과 관련 콘텐츠를 분석해 시장의 특징을 파악하고, 채널에 적합한 콘텐츠 방향을 도출합니다."
+        title: "채널 디자인 제작",
+        description: "채널 컬러 및 디자인 콘셉트 설정하고, 채널 로고 및 프로필 이미지를 제작."
       },
       {
         title: "채널 브랜딩 및 기획안 제작",
-        description: "채널의 분위기와 시각적 정체성을 구체화하고, 콘텐츠 구성과 운영 방향을 기획안으로 정리합니다."
+        description: "채널의 분위기와 시각적 정체성을 구체화하고, 콘텐츠 구성과 운영 방향을 기획안으로 정리."
       },
       {
         title: "최종 채널 브랜딩 완성",
-        description: "앞서 설정한 콘셉트와 기획 방향을 종합해 채널의 시각적 요소와 콘텐츠 전략을 일관성 있게 완성합니다."
+        description: "앞서 설정한 콘셉트와 기획 방향을 종합해 채널의 시각적 요소와 콘텐츠 전략을 일관성 있게 완성."
       }
     ]
     },
   {category: "VIDEO EDIT / PROJECT 02",
-    title: "영상 편집",
-    description: "기획·편집을 진행한 영상 콘텐츠 프로젝트.",
+    title: "영상 콘텐츠 편집",
+    description: "영상 편집을 진행한 프로젝트.",
     overview: "Video Production",
     thumbnail: "images/project02/thumbnail.png",
     cover: "images/project02/thumbnail.png",
     alt: "영상 콘텐츠 제작 프로젝트 대표 이미지",
     overviewHeading: "영상의 흐름을 다듬고, 인트로와 아웃트로를 디자인하다",
     role: "Video Planning · Editing · Motion Graphics",
-    tools: "Premiere Pro · After Effects · Photoshop · Illustrator",
+    tools: "Premiere Pro · After Effects · Photoshop · Figma",
     output: "Video Content / Motion Graphics",
-    processImages: [
-      "images/project02/process_01.jpg",
-      "images/project02/process_02.jpg",
-      "images/project02/process_03.png",
-      "images/project02/process_04.png"
-    ],
+    // processImages: [
+    //   "images/project02/process_01.jpg",
+    //   "images/project02/process_02.jpg",
+    //   "images/project02/process_03.png",
+    //   "images/project02/process_04.png"
+    // ],
     processSteps: [
       {
         title: "영상 기획 및 구성",
-        description: "콘텐츠의 주제와 전달할 메시지를 정하고, 영상의 전체적인 구성과 연출 방향을 계획합니다."
+        description: "콘텐츠의 주제와 전달할 메시지를 정하고, 영상의 전체적인 구성과 편집 방향을 계획."
       },
       {
-        title: "촬영 및 장면 구성",
-        description: "기획 의도에 맞춰 필요한 장면을 촬영하고, 영상의 흐름을 고려해 장면을 구성합니다."
+        title: "장면 구성",
+        description: "기획 의도에 맞춰 필요한 장면을 선정하고, 영상의 흐름을 고려해 장면을 구성."
       },
       {
         title: "영상 편집 및 시각 효과",
-        description: "장면을 연결하고 자막과 시각 효과를 적용해 영상의 전달력과 완성도를 높입니다."
+        description: "장면을 연결하고 자막과 시각 효과를 적용해 영상의 전달력과 완성도를 높임."
       },
       {
         title: "최종 영상 완성",
-        description: "영상의 흐름과 화면을 점검하고, 의도한 메시지가 효과적으로 전달되도록 최종 결과물을 완성합니다."
+        description: "영상의 흐름과 화면을 점검하고, 의도한 메시지가 효과적으로 전달되도록 최종 결과물을 완성."
       }
     ]
     },
   {category: "AI ADVERTISEMENT / PROJECT 03",
-    title: "환경부 분리배출 광고 모작",
+    title: "AI 광고 모작",
     description: "AI를 활용해 광고의 장면과 분위기를 재현한 영상 프로젝트.",
     overview: "AI Advertisement",
     thumbnail: "images/project03/project03_thumbnail.jpg",
@@ -112,7 +112,7 @@ const projectData = [
     alt: "환경부 분리배출 광고 모작 대표 이미지",
     overviewHeading: "기획부터 완성까지, 하나의 프로젝트를 만들다",
     role: "Planning & Production",
-    tools: "Premiere Pro · After Effects",
+    tools: "Premiere Pro · After Effects · Photoshop",
     output: "Video / Digital Content",
     processImages: [
       "images/project03/process/process_01.jpg",
@@ -122,27 +122,27 @@ const projectData = [
     ],
     processSteps: [
       {title: "기획 및 콘셉트 설정",
-      description: "프로젝트의 목적과 타깃을 분석하고 제작 방향을 설정합니다."
+      description: "프로젝트의 콘셉트 설정과 스토리보드 제작."
       },
-      {title: "키 이미지 제작",
-      description: "장면별 키 이미지와 시각적 분위기를 구체화합니다."
+      {title: "Reference 이미지 제작",
+      description: "장면별 Reference 이미지와 시각적 분위기를 구체화."
       },
       {title: "영상 생성 및 편집",
-      description: "영상 생성과 편집으로 장면을 연결하고 흐름을 다듬습니다."
+      description: "영상 생성과 편집으로 장면을 연결하고 흐름 다듬기."
       },
       {title: "최종 결과물 완성",
-      description: "화면과 사운드를 점검해 최종 결과물을 완성합니다."
+      description: "화면과 사운드를 점검해 최종 결과물을 완성."
       }
     ]
   },
   {category: "UX / UI DESIGN / PROJECT 04",
-    title: "쿠캣 커머스 UX/UI",
+    title: "푸드 커머스 UX/UI",
     description: "상품 탐색부터 가격·혜택 비교까지, 사용자의 구매 결정 과정을 더 직관적이고 편리하게 개선하는 UX/UI 프로젝트.",
     overview: "UX / UI Design",
     thumbnail: "images/project04/project02_thumbnail.png",
     cover: "images/project04/project02_thumbnail.png",
     alt: "쿠캣 앱 UX/UI 디자인 대표 이미지",
-    overviewHeading: "고민하는 시간을 줄이고, 나에게 맞는 한 끼를 발견하다",
+    overviewHeading: "주요 사용자를 분석하여, 화면 구조와 흐름을 설계·구체화 하다",
     role: "UX Research · UX/UI Design",
     tools: "Figma",
     output: "App UI / Interactive Prototype",
@@ -154,16 +154,16 @@ const projectData = [
     ],
     processSteps: [
       {title: "UX 리서치 및 사용자 분석",
-      description: "사용자의 쇼핑 행동과 불편 사항을 조사하고 주요 문제를 파악합니다."
+      description: "사용자의 쇼핑 행동과 불편 사항을 조사하고 주요 문제를 파악."
       },
       {title: "경쟁 서비스 분석",
-      description: "유사 커머스 서비스의 탐색·비교 경험을 분석하고 개선 기회를 도출합니다."
+      description: "유사 커머스 서비스의 탐색·비교 경험을 분석하고 개선 기회를 도출."
       },
       {title: "와이어프레임 및 화면 설계",
-      description: "사용자가 상품을 쉽게 탐색하고 비교할 수 있도록 화면 구조와 흐름을 설계합니다."
+      description: "사용자가 상품을 쉽게 탐색하고 비교할 수 있도록 화면 구조와 흐름을 설계."
       },
       {title: "최종 UI 디자인 및 프로토타입",
-      description: "쿠캣 앱의 디자인 방향을 적용하고 주요 화면과 사용자 이동 흐름을 구체화합니다."
+      description: "쿠캣 앱의 디자인 방향을 적용하고 주요 화면과 사용자 이동 흐름을 구체화."
       }
     ]
   }
@@ -189,7 +189,7 @@ const titleNode = document.querySelector("#project-title");
 const descriptionNode = document.querySelector("#project-description");
 const overviewCategoryNode = document.querySelector("#overview-category");
 if (categoryNode && project) categoryNode.textContent = project.category;
-if (titleNode && project) titleNode.textContent = project.title + ".";
+if (titleNode && project) titleNode.textContent = project.title;
 if (descriptionNode && project) descriptionNode.textContent = project.description;
 if (overviewCategoryNode && project) overviewCategoryNode.textContent = project.overview;
 
@@ -316,3 +316,72 @@ if (siteHeader) {
   window.addEventListener('scroll', updateHeader);
   updateHeader();
 }
+// Gallery carousels: show three items at a time and move through additional images.
+document.querySelectorAll(".gallery-carousel").forEach((carousel) => {
+  const items = [...carousel.querySelectorAll(".detail-image")];
+  const prev = carousel.querySelector(".gallery-prev");
+  const next = carousel.querySelector(".gallery-next");
+  let offset = 0;
+  const update = () => items.forEach((item, i) => {
+    item.style.display = (i >= offset && i < offset + 3) ? "" : "none";
+  });
+  update();
+  prev?.addEventListener("click", () => { offset = (offset - 1 + items.length) % items.length; update(); });
+  next?.addEventListener("click", () => { offset = (offset + 1) % items.length; update(); });
+});
+
+// Project-specific gallery order and labels
+const resultGallery = document.querySelector("#project-result-gallery");
+const resultGalleryHeading = document.querySelector("#result-gallery-heading");
+const processGallery = document.querySelector("#project-process-gallery");
+const finalVideoSection = document.querySelector("#project-final-video");
+
+// PROJECT 02 & 03: show FINAL VIDEO first, then the former result-gallery
+// renamed as the process gallery. The separate process gallery is hidden.
+if (projectIndex === 1 || projectIndex === 2) {
+  if (resultGalleryHeading) resultGalleryHeading.textContent = "프로젝트 과정";
+  if (resultGallery && finalVideoSection) {
+    finalVideoSection.parentNode.insertBefore(resultGallery, finalVideoSection.nextSibling);
+  }
+  // Use the renamed gallery for process images when the project has image assets.
+  if (resultGallery && project.processImages) {
+    resultGallery.querySelectorAll(".detail-image").forEach((item, i) => {
+      const image = project.processImages[i];
+      if (image) item.innerHTML = `<img src="${image}" alt="${project.title} 프로젝트 과정 ${i + 1}" loading="lazy">`;
+    });
+  }
+  if (processGallery) processGallery.style.display = "none";
+}
+
+// PROJECT 04: keep result gallery first, followed by process gallery.
+if (projectIndex === 3 && resultGallery && processGallery) {
+  resultGallery.style.display = "block";
+  processGallery.style.display = "block";
+  resultGallery.parentNode.insertBefore(processGallery, resultGallery.nextSibling);
+}
+
+// Populate process-gallery images for PROJECT 01 and PROJECT 04.
+if (projectIndex === 0 || projectIndex === 3) {
+  if (processGallery) {
+    processGallery.style.display = "block";
+    const processGalleryItems = processGallery.querySelectorAll(".detail-image");
+    processGalleryItems.forEach((item, i) => {
+      const image = project.processImages?.[i];
+      if (image) {
+        item.innerHTML = `<img src="${image}" alt="${project.title} 프로젝트 과정 ${i + 1}" loading="lazy">`;
+      }
+    });
+  }
+}
+
+// Profile skill level dots (5 levels; change data-level in index.html from 0 to 1-5)
+document.querySelectorAll(".skill-dots").forEach((rating) => {
+  const level = Math.max(0, Math.min(5, Number(rating.dataset.level) || 0));
+  for (let i = 0; i < 5; i++) {
+    const dot = document.createElement("span");
+    dot.className = "skill-dot";
+    if (i < level) dot.classList.add("is-filled");
+    rating.appendChild(dot);
+  }
+  rating.setAttribute("aria-label", `활용 능력 ${level}단계 / 5단계`);
+});
